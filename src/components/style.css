@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #479ED0;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+.headList, .logo, .footerList{
+   text-transform:uppercase;
+   text-decoration: none;
+   color: white;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.selected{
+    color: red;
+}
+.footer{
+    background-color: none;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #479ED0;
+}
+h1{
+    font-size: 2rem;
+    padding: 2.5rem;  
+    margin: 0;
+}
+.h1plus{
+    font-size: 2.5rem;
+    padding: 2.5rem;  
+}
+p{
+    font-size: 1rem;
+    padding: 2rem;
+}
+button{
+    background-color: #EC649C;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2.5rem;
+    width: 45%;
+}
+img{
+    width: 70%;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+.section1 p{
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.section1 button{
+    background-color: #479ED0;
+}
+.section1 img{
+    width: 90%;
+}
+.footerList{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+.section2 p{
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.section2 button{
+    background-color: #479ED0;
+}
+.section2 img{
+    width: 90%;
+}
